@@ -5,8 +5,9 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './passenger.component.html',
   styleUrls: ['./passenger.component.css']
 })
-export class PassengerComponent implements OnInit {
 
+export class PassengerComponent implements OnInit {
+  name: string = 'Markx'
   constructor() { }
 
   ngOnInit() {
